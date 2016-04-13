@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'gosu'
 
-group :test do
+group :development, :test do
+  gem 'pry-byebug'
   gem 'rspec'
 end
